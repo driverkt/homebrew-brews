@@ -3,7 +3,7 @@ require 'formula'
 class Dumpasn1 < Formula
   homepage 'http://www.cs.auckland.ac.nz/~pgut001/dumpasn1.c'
   url 'https://www.cs.auckland.ac.nz/~pgut001/dumpasn1.c'
-  version '20171011'
+  version '20170309'
   sha256 '4b7c7d92c9593ee58c81019b2c3b7a7ee7450b733d38f196ce7560ee0e34d6b1'
 
   resource "cfg_file" do
