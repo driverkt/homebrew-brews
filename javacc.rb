@@ -9,7 +9,7 @@ class Javacc < Formula
   def script target; <<-EOS.undent
     #!/bin/sh
     
-    exec java -cp #{libexec}/javacc-#{version}.jar #{target}
+    exec java -cp #{libexec}/javacc-#{version}.jar #{target} "$@"
     EOS
   end
 
