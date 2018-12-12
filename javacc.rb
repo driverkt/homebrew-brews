@@ -20,7 +20,8 @@ class Javacc < Formula
 
     bin.mkpath
 
-    ['javacc', 'jjtree', 'jjdoc'].each {|b| (bin+b).install script b}
+    ['javacc', 'jjtree', 'jjdoc'].each {|b| (bin+b).write script b}
+    ['javacc', 'jjtree', 'jjdoc'].each {|b| (bin+b).chmod "+x" b}
 
   end
 
