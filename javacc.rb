@@ -6,7 +6,7 @@ class Javacc < Formula
   sha256 'ca4b7f4609cc35a1f91e199f23f1a4a84be64c9208dbc986d9a2be4308f4a354'
   depends_on "ant" => :build
 
-  def script target; <<-EOS.undent
+  def script target; <<-EOS
     #!/bin/sh
     
     exec java -cp #{libexec}/javacc-#{version}.jar #{target} "$@"
