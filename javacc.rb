@@ -21,7 +21,7 @@ class Javacc < Formula
     bin.mkpath
 
     ['javacc', 'jjtree', 'jjdoc'].each {|b| (bin+b).write script b}
-    ['javacc', 'jjtree', 'jjdoc'].each {|b| system "chmod +x #{bin}/" + b}
+    ['javacc', 'jjtree', 'jjdoc'].each {|b| system "chmod u+x #{bin}/" + b}
   end
 
   def test
