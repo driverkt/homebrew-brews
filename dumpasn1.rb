@@ -3,12 +3,12 @@ require 'formula'
 class Dumpasn1 < Formula
   homepage 'http://www.cs.auckland.ac.nz/~pgut001/dumpasn1.c'
   url 'https://www.cs.auckland.ac.nz/~pgut001/dumpasn1.c'
-  version '20181212'
-  sha256 'd42b7fb8457b9282ee341429baaaaf0ef7b2310cb28fcf2fc41914e07e8b1370'
+  version '20191022'
+  sha256 'ba379c34d73ebf063081b760bc68b797091ec5e6b1c00052614a271119582e97'
 
   resource "cfg_file" do
     url "https://www.cs.auckland.ac.nz/~pgut001/dumpasn1.cfg"
-    sha256 "94245ed185e2bdb94b00ba031bb67ab83980748626f532ee4565df886468f196"
+    sha256 "917f48e2e1f539c8cc9c1eb08ca4cfc9680a04ad194d47a16d89dd42551cc972"
   end
 
   def install
