@@ -8,7 +8,7 @@ class Dumpasn1 < Formula
 
   resource "cfg_file" do
     url "https://www.cs.auckland.ac.nz/~pgut001/dumpasn1.cfg"
-    sha256 "1d02cfea8fa556281aed3911f96db517a50017eaaaded562fe6683d008bd1fac"
+    sha256 "ed1eaafb0ad865b97738dfe0b0e5d602c76dc0cde4c0cee4cdcdd11c28f480e5"
   end
 
   def install
