@@ -4,7 +4,7 @@ class Dumpasn1 < Formula
   homepage 'http://www.cs.auckland.ac.nz/~pgut001/dumpasn1.c'
   url 'https://www.cs.auckland.ac.nz/~pgut001/dumpasn1.c'
   version '20210212'
-  sha256 '319a85af8d75f95f16ecb6fd8a9b59aef22a0e3798e84c830027d1bead9adaeb'
+  sha256 'ed1eaafb0ad865b97738dfe0b0e5d602c76dc0cde4c0cee4cdcdd11c28f480e5'
 
   resource "cfg_file" do
     url "https://www.cs.auckland.ac.nz/~pgut001/dumpasn1.cfg"
