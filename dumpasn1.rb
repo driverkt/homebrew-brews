@@ -12,9 +12,10 @@ class Dumpasn1 < Formula
   end
 
   def install
-    resource("cfg_file").stage etc
+    resource("cfg_file").stage
     system "cc -o dumpasn1 dumpasn1.c"
     bin.install 'dumpasn1'
+    bin.install 'dumpasn1.cfg'
   end
 
   def test
