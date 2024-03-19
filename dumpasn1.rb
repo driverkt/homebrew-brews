@@ -1,3 +1,12 @@
+##
+# It might be better for keeping up with the sha256sum to use the debian
+# tarball available here: 
+# http://deb.debian.org/debian/pool/main/d/dumpasn1/dumpasn1_20210212.orig.tar.gz
+#
+# However, this is significantly out of date. I'm not aware of another
+# packaged tarball, but maybe I'll come across one. 
+
+
 require 'formula'
 
 class Dumpasn1 < Formula
