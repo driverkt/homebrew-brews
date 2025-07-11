@@ -7,5 +7,5 @@ cask "8bitdo-firmware-updater" do
   desc "8BitDo Firmware Updater"
   homepage "https://support.8bitdo.com/firmware-updater.html"
 
-  app "8BitDo\\ Firmware\\ Updater.app"
+  app "8BitDo\ Firmware\ Updater.app"
 end
